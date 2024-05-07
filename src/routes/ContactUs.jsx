@@ -2,8 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 
 function ContactUs() {
   return (
-    <div className="container">
+    <div className=" justify-center">
       <Navbar />
+      
       Get in Touch
       <br></br>
       <br></br>

@@ -4,9 +4,22 @@ function About() {
   return (
     <div>
       <Navbar />
-
       <div>
+        Company Background
+        <br></br>
+        <br></br>
+        At Makwetu Foods, we are passionate about bringing delicious meals
+        straight to your doorstep. Founded in 1992, our journey began with a
+        simple mission: to revolutionize the way people experience food
+        delivery. What started as a small team of food enthusiasts has grown
+        into a leading platform connecting hungry customers with their favorite
+        local restaurants.
+      </div>
+      <div>
+        <br></br>
+        <br></br>
         Our Mission
+        <br></br>
         <br></br>
         Our mission is to make food delivery convenient, reliable, and
         delightful for everyone.
@@ -21,10 +34,12 @@ function About() {
         <br></br>
         <br></br>
         Our Promise
-         At [Company Name], we are committed to delivering more than
-        just food. We're dedicated to creating memorable dining experiences that
-        bring joy to your day and make every mealtime special. Join us on this
-        delicious journey and taste the difference for yourself!
+        <br></br>
+        <br></br>
+        At Makwetu Food, we are committed to delivering more than just food.
+        We're dedicated to creating memorable dining experiences that bring joy
+        to your day and make every mealtime special. Join us on this delicious
+        journey and taste the difference for yourself!
       </div>
     </div>
   );
