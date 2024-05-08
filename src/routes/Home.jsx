@@ -1,7 +1,7 @@
 import ExploreMenu from "../components/ExploreMenu/ExploreMenu";
 import Navbar from "../components/Navbar";
 
-function Home() {
+/*function Home() {
   return (
     <div>
       <Navbar />
@@ -9,13 +9,14 @@ function Home() {
     </div>
   );
 }
-const Home = () => {
+*/
+function Home() {
   return (
     <div>
       <Header />
       <ExploreMenu />
     </div>
   );
-};
+}
 
 export default Home;
