@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 function ContactUs() {
   return (
-    <div className=" md:container md:mx-auto  px-4">
+    <div className=" md:container md:mx-auto  px-4 scroll-m-2">
       <Navbar />
       <div className=" text-center  font-bold text-4xl col text-slate-500 hover:text-blue-600 underline ">
         Get in Touch
@@ -37,29 +37,36 @@ function ContactUs() {
         <br></br>
         Jobs and Internships -upload your CV and apply.
         <br></br>
-        General Queries: hr@expresseats.co.ke (All applications are processed
-        over email)
+        General Queries:{" "}
+        <div className=" text-lime-500">hr@expresseats.co.ke</div> (All
+        applications are processed over email)
         <br></br>
         <br></br>
         <br></br>
         <br></br>
       </div>
-      CEO’s Office Email:ceo@expresseats.co.ke
+      <div className="tente-left text-2xl hover:text-blue-700 text-right">
+        CEO’s Office Email:
+        <div className=" text-lime-500">ceo@expresseats.co.ke</div>
+      </div>
       <br></br>
       <br></br>
-      Visit Website:
-      <br></br>
-      www.ExpressEatsufoods.com
-      <br></br>
-      <br></br>
-      <br></br>
-      ExpressEats Foods
-      <br></br>
-      P.O Box 0,
-      <br></br>
-      00800 Nairobi
+      <div className="  text-2xl hover:text-blue-700 tetx-right text-right">
+        <div className="font-bold">Visit Website:</div>
+        <div className="text-lime-500 ">www.ExpressEatsufoods.com</div>
+      </div>
       <br></br>
       <br></br>
+      <br></br>
+      <div className=" text-2xl hover:text-blue-700 tetx-right text-center">
+        ExpressEats Foods
+        <br></br>
+        P.O Box 0,
+        <br></br>
+        00800 Nairobi
+        <br></br>
+        <br></br>
+      </div>
     </div>
   );
 }
