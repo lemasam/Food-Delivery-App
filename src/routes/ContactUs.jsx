@@ -9,43 +9,40 @@ function ContactUs() {
         <br></br>
         <br></br>
       </div>
-      <div className=" contain-content left text-2xl hover:text-center hover:text-blue-700 ">
+      <div className=" contain-content left text-2xl  hover:text-blue-700 ">
         Clients only calls from
         <br></br>
-        0712345678
+        <div className="font-bold">0712345678</div>
       </div>
       <br></br>
       <br></br>
       <br></br>
-      <div className="text-center text-2xl hover:text-blue-700 ">
-        Data Queries:
-        <br></br>
-        expresseats@kenya.co.ke
+      <div className="text-left text-2xl hover:text-blue-700 ">
+        <div className="font-bold ">Data Queries:</div>
+        <div className=" text-lime-500">expresseats@kenya.co.ke</div>
       </div>
       <br></br>
       <br></br>
-      <div className=" text-right text-2xl  hover:text-blue-700 hover:text-center ">
+      <div className=" text-right text-2xl  hover:text-blue-700 ">
         Online Support Team
         <br></br>
-        Twitter@ExpressEats
-        <br></br>
-        Facebook: @ExpressEats
+        <div className=" text-lime-500">Twitter@ExpressEats</div>
+        <div className=" text-lime-500">Facebook: @ExpressEats</div>
       </div>
       <br></br>
       <br></br>
       <br></br>
-      <div className=" tente-left text-2xl hover:text-blue-700 hover:text-center">
-        
-      Careers and HR
-      <br></br>
-      Jobs and Internships -upload your CV and apply.
-      <br></br>
-      General Queries: hr@expresseats.co.ke (All applications are processed over
-      email)
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className=" tente-left text-2xl hover:text-blue-700 ">
+        Careers and HR
+        <br></br>
+        Jobs and Internships -upload your CV and apply.
+        <br></br>
+        General Queries: hr@expresseats.co.ke (All applications are processed
+        over email)
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
       CEO’s Office Email:ceo@expresseats.co.ke
       <br></br>
