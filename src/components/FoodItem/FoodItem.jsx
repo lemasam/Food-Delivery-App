@@ -1,4 +1,4 @@
-// FoodItem.js
+
 import React from 'react';
 
 const FoodItem = ({ name, description, price, image }) => {
@@ -8,7 +8,7 @@ const FoodItem = ({ name, description, price, image }) => {
       <div className="food-details">
         <h2>{name}</h2>
         <p>{description}</p>
-        <p>Price: ${price}</p>
+        <p>Price: sh{price}</p>
         <button>Add to Cart</button>
       </div>
     </div>
