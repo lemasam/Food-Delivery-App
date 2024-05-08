@@ -2,9 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 
 function ContactUs() {
   return (
-    <div className=" md:container md:mx-auto  px-4 scroll-m-2">
+    <div className="  md:mx-auto  px-4 scroll-m-2 ">
       <Navbar />
-      <div className=" text-center  font-bold text-4xl col text-slate-500 hover:text-blue-600 underline ">
+      <div className=" text-center  font-bold text-4xl col text-slate-500 hover:text-blue-600 underline p-10">
         Get in Touch
         <br></br>
         <br></br>

@@ -2,18 +2,20 @@ import Navbar from "../components/Navbar/Navbar";
 
 function About() {
   return (
-    <main className="">
+    <main className="scroll-px-2 ">
       <Navbar />
-      <div className=" text-xl font-bold   bg-blue-400 grid justify-items-center  ">
-        Company Background
-      </div>
-      <div className=" bg-blue-400  text-xl ">
-        At ExpressEats Foods, we are passionate about bringing delicious meals
-        straight to your doorstep. Founded in 1992, our journey began with a
-        simple mission: to revolutionize the way people experience food
-        delivery. What started as a small team of food enthusiasts has grown
-        into a leading platform connecting hungry customers with their favorite
-        local restaurants.
+      <div className="pt-6">
+        <div className=" text-2xl font-bold   bg-blue-400 grid justify-items-center  ">
+          Company Background
+        </div>
+        <div className=" bg-blue-400  text-xl ">
+          At ExpressEats Foods, we are passionate about bringing delicious meals
+          straight to your doorstep. Founded in 1992, our journey began with a
+          simple mission: to revolutionize the way people experience food
+          delivery. What started as a small team of food enthusiasts has grown
+          into a leading platform connecting hungry customers with their
+          favorite local restaurants.
+        </div>
       </div>
       <div className=" font-bold text-2xl grid justify-items-center bg-slate-400 ">
         <br></br>
@@ -23,12 +25,10 @@ function About() {
       </div>
       <div className=" bg-slate-400 text-xl">
         Our mission is to make food delivery convenient, reliable, and
-        delightful for everyone.
-        We believe that good food has the power to bring people together and
-        enrich their lives.        
-        Whether you're craving a comforting bowl of noodles, a sizzling burger,
-        or a fresh salad, we're here to satisfy your cravings with a few taps on
-        your phone.
+        delightful for everyone. We believe that good food has the power to
+        bring people together and enrich their lives. Whether you're craving a
+        comforting bowl of noodles, a sizzling burger, or a fresh salad, we're
+        here to satisfy your cravings with a few taps on your phone.
       </div>
       <div className=" font-bold text-2xl grid justify-items-center bg-red-400">
         <br></br>
