@@ -1,3 +1,11 @@
 import React from "react";
 import "./ExploreMenu.css";
 import { menu_list } from "../assets/assets";
+
+const ExploreMenu = () => {
+  return (
+    <div className="explore-menu" id="explore-menu">
+      <h1>Exolore our menu</h1>
+      <p className="explore-menu-text">
+        choose from a diverse menu featuring a delicatable array of dishes. Our
+        mission is to satisfy{" "}
