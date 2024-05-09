@@ -1,0 +1,25 @@
+.food-item-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-item-container h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.food-item-container p {
+  color: #666;
+  font-size: 16px;
+}
+
+.food-item-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
