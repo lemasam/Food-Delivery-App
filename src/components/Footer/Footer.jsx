@@ -7,8 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
-            <p>Indulge in a culinary adventure at our cozy restaurant. With a diverse menu featuring mouthwatering dishes, we aim to satisfy every palate. From hearty classics to innovative creations, each meal is crafted with care to ensure a delightful dining experience for all our customers.</p>
+            <p>Embark on a gastronomic journey at our intimate eatery. Offering an eclectic menu brimming with delectable options, we strive to cater to every taste bud. Whether you crave traditional favorites or crave-worthy innovations, each dish is meticulously prepared to guarantee a memorable culinary escapade for all patrons.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -27,13 +26,12 @@ const Footer = () => {
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+254 748 771 270</li>
+                <li>+254 748 771 270 / 0703312080</li>
                 <li>aloiceadriot@gmail.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
     </div>
   )
 }
