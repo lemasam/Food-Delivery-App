@@ -1,3 +1,4 @@
+
 import Navbar from "../components/Navbar/Navbar";
 import "../index.css"
 
@@ -11,3 +12,4 @@ function Home() {
 }
 
 export default Home;
+

@@ -1,3 +1,4 @@
+
 import Navbar from "../components/Navbar/Navbar";
 
 function About() {
@@ -65,3 +66,4 @@ function About() {
 }
 
 export default About;
+
