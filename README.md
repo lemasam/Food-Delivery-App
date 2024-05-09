@@ -49,7 +49,7 @@ email: thereshiah.samuel@student.moringaschool.com
 email: lemasam10@gmail.com
 
 ## Browser link
-
+[https://express-eats-app.netlify.app/]
 
 ## license
 
