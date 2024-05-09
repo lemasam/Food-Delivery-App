@@ -68,42 +68,42 @@
         "name": "Chicken Tikka Masala",
         "description": "Creamy tomato-based curry with tender chicken pieces, served with basmati rice and naan bread",
         "price": 13.99,
-        "image": "chicken_tikka_masala.jpg"
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.daringgourmet.com%2Fchicken-tikka-masala-recipe%2F&psig=AOvVaw0QFDIl14IqLm83prkES8mk&ust=1715322763541000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiH5rH5_4UDFQAAAAAdAAAAABAE"
       },
       {
         "id": 11,
         "name": "Caesar Wrap",
         "description": "Grilled chicken, romaine lettuce, parmesan cheese, and Caesar dressing wrapped in a flour tortilla",
         "price": 9.49,
-        "image": "caesar_wrap.jpg"
+        "image": "https://www.simplyrecipes.com/thmb/Xs4OsuAVE__V8MPvm4lbUhn6I0E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Caesar-Wrap-LEAD-4-3462748031b34985b4b4cc27b4165bf0.jpg"
       },
       {
         "id": 12,
         "name": "Beef Tacos",
         "description": "Soft corn tortillas filled with seasoned ground beef, lettuce, tomato, cheese, and salsa",
         "price": 8.99,
-        "image": "beef_tacos.jpg"
+        "image": "https://media.gettyimages.com/id/179708004/photo/beef-barbacoa-tacos.jpg?s=612x612&w=gi&k=20&c=qkAG3NIxN3Fbr24y-sQFJqstjxgSbZl8VBgw95bUkC8="
       },
       {
         "id": 13,
         "name": "Pad Thai Noodles",
         "description": "Thai stir-fried rice noodles with tofu, bean sprouts, peanuts, and a tangy tamarind sauce",
         "price": 10.99,
-        "image": "pad_thai_noodles.jpg"
+        "image": "https://hot-thai-kitchen.com/wp-content/uploads/2022/08/pad-thai-woonsen-fork-sq.jpg"
       },
       {
         "id": 14,
         "name": "Caprese Salad",
         "description": "Fresh mozzarella cheese, ripe tomatoes, and basil drizzled with balsamic glaze",
         "price": 8.49,
-        "image": "caprese_salad.jpg"
+        "image": "https://static01.nyt.com/images/2023/07/25/multimedia/MC-Classic-Caprese-fpjw/MC-Classic-Caprese-fpjw-superJumbo.jpg"
       },
       {
         "id": 15,
         "name": "Beef Pho",
         "description": "Vietnamese noodle soup made with beef broth, rice noodles, thinly sliced beef, and fresh herbs",
         "price": 11.99,
-        "image": "beef_pho.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXQZ-isHd03pZxK-7njZgdU9q5nsvwRfHcPXCuY_nUw&s"
       }
     ]
   }
