@@ -1,11 +1,15 @@
-import Navbar from "../components/Navbar";
 
-
+import Navbar from "../components/Navbar/Navbar";
+import "../index.css"
 
 function Home() {
-  return <div>
-    <Navbar />
-    HOOOOOOOOOOOOOME</div>;
+  return (
+    <div className="home">
+      <Navbar />
+      HOOOOOOOOOOOOOME
+    </div>
+  );
 }
 
 export default Home;
+
