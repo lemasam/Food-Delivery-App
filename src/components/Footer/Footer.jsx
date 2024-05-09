@@ -8,7 +8,6 @@ const Footer = () => {
       <div className="footer-content">
         <div className='footer-content-left'></div>
         <img src= {assets.logo} alt=""/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam doloremque ducimus eos dolores magni amet obcaecati voluptatibus, incidunt aut reprehenderit nemo cumque consectetur, a distinctio quia, quam qui? Nihil.</p>
          <div className="footer-social-icon">
           <img scr={assets.facebook_icon} alt=""/>
           <img src={assets.twitter_icon} alt=""/>
@@ -20,7 +19,7 @@ const Footer = () => {
           <li>Home</li>
           <li>About us</li>
           <li>Delivery</li>
-          <li>Privacy POlicy</li>
+          <li>Privacy Policy</li>
         </ul>
 
       </div>
