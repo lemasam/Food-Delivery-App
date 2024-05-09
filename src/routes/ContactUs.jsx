@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 function ContactUs() {
   return (
-    <div className="  md:mx-auto  px-4 scroll-m-2 ">
+    <div className="  md:mx-auto  px-4 scroll-m-2 cursor-pointer ">
       <Navbar />
       <div className=" text-center  font-bold text-4xl col text-slate-500 hover:text-blue-600 underline p-10">
         Get in Touch
@@ -12,7 +12,7 @@ function ContactUs() {
       <div className=" contain-content left text-2xl  hover:text-blue-700 ">
         Clients only calls from
         <br></br>
-        <div className="font-bold">0712345678</div>
+        <div className="font-bold hover:text-rose-700">0712345678</div>
       </div>
       <br></br>
       <br></br>
@@ -24,8 +24,8 @@ function ContactUs() {
       <br></br>
       <br></br>
       <div className=" text-right text-2xl  hover:text-blue-700 ">
-        Online Support Team
-        <br></br>
+        <div className=" font-bold">Online Support Team</div>
+
         <div className=" text-lime-500">Twitter@ExpressEats</div>
         <div className=" text-lime-500">Facebook: @ExpressEats</div>
       </div>
@@ -33,8 +33,7 @@ function ContactUs() {
       <br></br>
       <br></br>
       <div className=" tente-left text-2xl hover:text-blue-700 ">
-        Careers and HR
-        <br></br>
+        <div className=" font-bold">Careers and HR</div>
         Jobs and Internships -upload your CV and apply.
         <br></br>
         General Queries:{" "}
@@ -45,13 +44,13 @@ function ContactUs() {
         <br></br>
         <br></br>
       </div>
-      <div className="tente-left text-2xl hover:text-blue-700 text-right">
-        CEO’s Office Email:
+      <div className="tente-left text-2xl hover:text-blue-700 text-center">
+        <div className=" font-bold">CEO’s Office Email:</div>
         <div className=" text-lime-500">ceo@expresseats.co.ke</div>
       </div>
       <br></br>
       <br></br>
-      <div className="  text-2xl hover:text-blue-700 tetx-right text-right">
+      <div className="  text-2xl hover:text-blue-700 tetx-right text-center">
         <div className="font-bold">Visit Website:</div>
         <div className="text-lime-500 ">www.ExpressEatsufoods.com</div>
       </div>
