@@ -4,49 +4,49 @@
         "id": 1,
         "name": "Cheeseburger",
         "description": "Juicy beef patty with melted cheese, lettuce, tomato, and pickles on a sesame seed bun",
-        "price": 9.99,
+        "price": 5,
         "image": "https://www.shutterstock.com/image-illustration/high-quality-cheese-burger-4k-600w-2310275119.jpg"
       },
       {
         "id": 2,
         "name": "Margherita Pizza",
         "description": "Classic Italian pizza with tomato sauce, fresh mozzarella, basil, and olive oil",
-        "price": 11.99,
+        "price": 10,
         "image": "https://www.abeautifulplate.com/wp-content/uploads/2015/08/the-best-homemade-margherita-pizza-1-4-480x270.jpg"
       },
       {
         "id": 3,
         "name": "Chicken Caesar Salad",
         "description": "Crisp romaine lettuce topped with grilled chicken, parmesan cheese, croutons, and Caesar dressing",
-        "price": 8.49,
+        "price": 20,
         "image": "https://healthyfitnessmeals.com/wp-content/uploads/2020/05/instagram-In-Stream_Square___Low-carb-Caesar-salad-4.jpg"
       },
       {
         "id": 4,
         "name": "Spaghetti Carbonara",
         "description": "Pasta dish made with spaghetti, eggs, pancetta, and grated Pecorino Romano cheese",
-        "price": 12.99,
+        "price": 30,
         "image": "https://www.thespruceeats.com/thmb/ovIQQQxQajADuIE2lqhgqq7ppyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pasta-carbonara-recipe-5210168-hero-01-80090e56abc04ca19d88ebf7fad1d157.jpg"
       },
       {
         "id": 5,
         "name": "Sushi Combo",
         "description": "Assorted sushi rolls including California roll, spicy tuna roll, and salmon avocado roll",
-        "price": 14.99,
+        "price": 40,
         "image": "https://www.shutterstock.com/shutterstock/photos/2000258009/display_1500/stock-photo-medium-sushi-combo-with-salmon-and-shrimp-2000258009.jpg"
       },
       {
         "id": 6,
         "name": "BBQ Ribs",
         "description": "Tender, slow-cooked pork ribs slathered in tangy barbecue sauce",
-        "price": 15.99,
+        "price": 50,
         "image": "https://img.freepik.com/premium-photo/closeup-pork-ribs-grilled-with-bbq-sauce-caramelized-honey-spicy-barbecued-pork-ribs-served-with-bbq-sauce-large-steaming-fragrant-piece-baked-beef-brisket-ribs_146482-7751.jpg"
       },
       {
         "id": 7,
         "name": "Vegetable Stir Fry",
         "description": "Fresh vegetables stir-fried in a savory sauce served over steamed rice",
-        "price": 10.49,
+        "price": 60,
         "image": "https://www.budgetbytes.com/wp-content/uploads/2022/03/Easy-Vegetable-Stir-Fry-close.jpg"
       },
       {

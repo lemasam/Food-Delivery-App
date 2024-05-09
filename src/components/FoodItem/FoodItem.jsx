@@ -25,7 +25,7 @@ function FoodItem() {
         <div>
           <h2>{foodItem.name}</h2>
           <p>Description: {foodItem.description}</p>
-          <p>Price: ${foodItem.price}</p>
+          <p>Price: sh{foodItem.price}</p>
           <img src={`http://localhost:3000/${foodItem.image}`} alt={foodItem.name} style={{ maxWidth: '100%' }} />
         </div>
       ) : (
