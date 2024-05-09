@@ -5,28 +5,28 @@
         "name": "Cheeseburger",
         "description": "Juicy beef patty with melted cheese, lettuce, tomato, and pickles on a sesame seed bun",
         "price": 9.99,
-        "image": "cheeseburger.jpg"
+        "image": "https://www.shutterstock.com/image-illustration/high-quality-cheese-burger-4k-600w-2310275119.jpg"
       },
       {
         "id": 2,
         "name": "Margherita Pizza",
         "description": "Classic Italian pizza with tomato sauce, fresh mozzarella, basil, and olive oil",
         "price": 11.99,
-        "image": "margherita_pizza.jpg"
+        "image": "https://www.abeautifulplate.com/wp-content/uploads/2015/08/the-best-homemade-margherita-pizza-1-4-480x270.jpg"
       },
       {
         "id": 3,
         "name": "Chicken Caesar Salad",
         "description": "Crisp romaine lettuce topped with grilled chicken, parmesan cheese, croutons, and Caesar dressing",
         "price": 8.49,
-        "image": "chicken_caesar_salad.jpg"
+        "image": "https://healthyfitnessmeals.com/wp-content/uploads/2020/05/instagram-In-Stream_Square___Low-carb-Caesar-salad-4.jpg"
       },
       {
         "id": 4,
         "name": "Spaghetti Carbonara",
         "description": "Pasta dish made with spaghetti, eggs, pancetta, and grated Pecorino Romano cheese",
         "price": 12.99,
-        "image": "spaghetti_carbonara.jpg"
+        "image": "https://www.thespruceeats.com/thmb/ovIQQQxQajADuIE2lqhgqq7ppyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pasta-carbonara-recipe-5210168-hero-01-80090e56abc04ca19d88ebf7fad1d157.jpg"
       },
       {
         "id": 5,
