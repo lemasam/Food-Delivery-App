@@ -33,35 +33,35 @@
         "name": "Sushi Combo",
         "description": "Assorted sushi rolls including California roll, spicy tuna roll, and salmon avocado roll",
         "price": 14.99,
-        "image": "sushi_combo.jpg"
+        "image": "https://www.shutterstock.com/shutterstock/photos/2000258009/display_1500/stock-photo-medium-sushi-combo-with-salmon-and-shrimp-2000258009.jpg"
       },
       {
         "id": 6,
         "name": "BBQ Ribs",
         "description": "Tender, slow-cooked pork ribs slathered in tangy barbecue sauce",
         "price": 15.99,
-        "image": "bbq_ribs.jpg"
+        "image": "https://img.freepik.com/premium-photo/closeup-pork-ribs-grilled-with-bbq-sauce-caramelized-honey-spicy-barbecued-pork-ribs-served-with-bbq-sauce-large-steaming-fragrant-piece-baked-beef-brisket-ribs_146482-7751.jpg"
       },
       {
         "id": 7,
         "name": "Vegetable Stir Fry",
         "description": "Fresh vegetables stir-fried in a savory sauce served over steamed rice",
         "price": 10.49,
-        "image": "vegetable_stir_fry.jpg"
+        "image": "https://www.budgetbytes.com/wp-content/uploads/2022/03/Easy-Vegetable-Stir-Fry-close.jpg"
       },
       {
         "id": 8,
         "name": "Fettuccine Alfredo",
         "description": "Creamy fettuccine pasta tossed in a rich Alfredo sauce made with butter, cream, and parmesan cheese",
         "price": 11.49,
-        "image": "fettuccine_alfredo.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjTUgJqNxA8Uzpgq7mjfM3z0MGmc3XSr4_eV8Owjbu4g&s"
       },
       {
         "id": 9,
         "name": "Margarita Cocktail",
         "description": "Classic cocktail made with tequila, lime juice, and triple sec, served with a salt rim",
         "price": 7.99,
-        "image": "margarita_cocktail.jpg"
+        "image": "https://e0.pxfuel.com/wallpapers/1000/927/desktop-wallpaper-margarita-cocktail-macro-cocktails-glass-with-drink-margarita-glass-with-margarita-for-with-resolution-high-quality.jpg"
       },
       {
         "id": 10,

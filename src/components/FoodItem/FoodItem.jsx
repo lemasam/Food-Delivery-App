@@ -1,18 +1,38 @@
 
 import React from 'react';
 
-const FoodItem = ({ name, description, price, image }) => {
+function FoodItem() {
+  const { id } = useParams();
+  const [foodItem, setFoodItem] = useState(null);
+
+  useEffect(() => {
+    fetchFoodItem();
+  }, []);
+
+  const fetchFoodItem = async () => {
+    try {
+      const response = await fetch(`http://localhost:3000/foodItems/${id}`);
+      const data = await response.json();
+      setFoodItem(data);
+    } catch (error) {
+      console.error('Error fetching food item:', error);
+    }
+  };
+
   return (
-    <div className="food-item">
-      <img src={image} alt={name} />
-      <div className="food-details">
-        <h2>{name}</h2>
-        <p>{description}</p>
-        <p>Price: sh{price}</p>
-        <button>Add to Cart</button>
-      </div>
+    <div>
+      {foodItem ? (
+        <div>
+          <h2>{foodItem.name}</h2>
+          <p>Description: {foodItem.description}</p>
+          <p>Price: ${foodItem.price}</p>
+          <img src={`http://localhost:3000/${foodItem.image}`} alt={foodItem.name} style={{ maxWidth: '100%' }} />
+        </div>
+      ) : (
+        <p>Loading...</p>
+      )}
     </div>
   );
 }
 
-export default FoodItem;
+export default FoodItem
