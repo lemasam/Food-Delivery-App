@@ -1,38 +1,35 @@
+import React, { useContext, useState } from 'react'
+import './FoodItem.css'
+import { assets } from '../../assets/assets'
+import { StoreContext } from '../../Context/StoreContext';
 
-import React from 'react';
+const FoodItem = ({ image, name, price, desc , id }) => {
 
-function FoodItem() {
-  const { id } = useParams();
-  const [foodItem, setFoodItem] = useState(null);
+    const [itemCount, setItemCount] = useState(0);
+    const {cartItems,addToCart,removeFromCart} = useContext(StoreContext);
 
-  useEffect(() => {
-    fetchFoodItem();
-  }, []);
-
-  const fetchFoodItem = async () => {
-    try {
-      const response = await fetch(`http://localhost:3000/foodItems/${id}`);
-      const data = await response.json();
-      setFoodItem(data);
-    } catch (error) {
-      console.error('Error fetching food item:', error);
-    }
-  };
-
-  return (
-    <div>
-      {foodItem ? (
-        <div>
-          <h2>{foodItem.name}</h2>
-          <p>Description: {foodItem.description}</p>
-          <p>Price: ${foodItem.price}</p>
-          <img src={`http://localhost:3000/${foodItem.image}`} alt={foodItem.name} style={{ maxWidth: '100%' }} />
+    return (
+        <div className='food-item'>
+            <div className='food-item-img-container'>
+                <img className='food-item-image' src={image} alt="" />
+                {!cartItems[id]
+                ?<img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt="" />
+                :<div className="food-item-counter">
+                        <img src={assets.remove_icon_red} onClick={()=>removeFromCart(id)} alt="" />
+                        <p>{cartItems[id]}</p>
+                        <img src={assets.add_icon_green} onClick={()=>addToCart(id)} alt="" />
+                    </div>
+                }
+            </div>
+            <div className="food-item-info">
+                <div className="food-item-name-rating">
+                    <p>{name}</p> <img src={assets.rating_starts} alt="" />
+                </div>
+                <p className="food-item-desc">{desc}</p>
+                <p className="food-item-price">Ksh.{price}</p>
+            </div>
         </div>
-      ) : (
-        <p>Loading...</p>
-      )}
-    </div>
-  );
+    )
 }
 
 export default FoodItem
