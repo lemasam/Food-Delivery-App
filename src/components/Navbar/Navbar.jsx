@@ -1,21 +1,54 @@
-import { NavLink } from "react-router-dom"
+import React, { useContext, useState } from "react";
+import "./Navbar.css";
+import { assets } from "../../assets/assets";
+import { Link } from "react-router-dom";
+import { StoreContext } from "../../Context/StoreContext";
 
+function Navbar ({ setShowLogin }) {
+  const [menu, setMenu] = useState("home");
+  const { getTotalCartAmount } = useContext(StoreContext);
 
-
-function Navbar() {
   return (
-    <nav className="text-2xl font-bold bg-green-600  ">
-      <NavLink to={"/"} className="p-48 w-full">
-        Home:
-      </NavLink>
-      <NavLink to={"/about"} className="p-48 w-full">
-        About:
-      </NavLink>
-      <NavLink to={"/contactus"} className=" p-48 w-full">
-        Contact Us:
-      </NavLink>
-    </nav>
+    <div className="navbar">
+      <ul className="navbar-menu">
+        <Link
+          to="/"
+          onClick={() => setMenu("home")}
+          className={`${menu === "home" ? "active" : ""}`}
+        >
+          home
+        </Link>
+        <a
+          href="#explore-menu"
+          onClick={() => setMenu("menu")}
+          className={`${menu === "menu" ? "active" : ""}`}
+        >
+          menu
+        </a>
+        <a
+          href="#app-download"
+          onClick={() => setMenu("mob-app")}
+          className={`${menu === "mob-app" ? "active" : ""}`}
+        >
+          mobile app
+        </a>
+        <a
+          href="#footer"
+          onClick={() => setMenu("contact")}
+          className={`${menu === "contact" ? "active" : ""}`}
+        >
+          contact us
+        </a>
+      </ul>
+      <div className="navbar-right">
+        <Link to="/cart" className="navbar-search-icon">
+          <img src={assets.basket_icon} alt="" />
+          <div className={getTotalCartAmount() > 0 ? "dot" : ""}></div>
+        </Link>
+        <button onClick={() => setShowLogin(true)}>sign in</button>
+      </div>
+    </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
