@@ -1,3 +1,4 @@
+
 import React, { useContext, useState } from 'react'
 import  './Navbar.css'
 import { assets } from '../../assets/assets'
@@ -29,3 +30,4 @@ const Navbar = ({setShowLogin}) => {
 }
 
 export default Navbar
+
